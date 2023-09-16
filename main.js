@@ -4,7 +4,7 @@ let m
 let s
 let ms
 
-myVideo.addEventListener("click", () => (myVideo.paused)? myVideo.play() : myVideo.pause());
+myVideo.addEventListener('click', () => (myVideo.paused)? myVideo.play() : myVideo.pause());
 
 myVideo.addEventListener('ended', () => myVideo.currentTime = 0, false);
 
