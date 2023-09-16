@@ -1,0 +1,19 @@
+.video {
+    display: block;
+    text-align: center;
+    margin: 100px auto;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
+#video__timer {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    color: #fff;
+}
+
+
+
