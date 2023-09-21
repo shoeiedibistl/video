@@ -6,7 +6,7 @@ let ms
 
 myVideo.addEventListener('click', () => (myVideo.paused)? myVideo.play() : myVideo.pause());
 
-myVideo.addEventListener('ended', () => myVideo.currentTime = 0, false);
+myVideo.addEventListener('ended', () => myVideo.currentTime = 0);
 
 myVideo.addEventListener('timeupdate', function () {
     myTimer.innerHTML = timeTransform(myVideo.currentTime);
